@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Rubik's Cube</title>
+    <meta name="description" content="The Rubik's Cube is a 3D combination puzzle invented in 1974 by Hungarian sculptor and professor of architecture Ernő Rubik." />
+    <meta name="theme-color" content="#fff" />
+    <link rel="icon shortcut" href="assets/images/logo-128.png">
+    <meta property="og:image" content="assets/images/logo-128.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel='stylesheet' href='assets/css/gcube.css'>
+    <link rel='stylesheet' href='assets/css/style.css'>
+  </head>
+  <body>
+    <!--
+    <div class="header">
+      <img src="assets/images/logo-128.png">
+      <h1>Rubik's Cube</h1>
+    </div>
+    -->
+    <g-cube>
+	    <g-scramble></g-scramble>
+    </g-cube>
+    <center class="footer">
+      <span ondblclick="$('g-cube').gscramble('/random');">Random</span>
+      <img onclick="fullScreen()" src="assets/images/full.svg">
+      <img onclick="ChangeMode()" src="assets/images/moon.png">
+      <span id="makeOfflineBtn" onclick="makeOffline()">Make Offline</span>
+      <span id="aboutDev" style="display:none" onclick="window.open('http://tdimmax.github.io')">About</span>
+    </center>
+    <script src='assets/lib/jquery.min.js'></script>
+    <script src='assets/lib/gcube.js'></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

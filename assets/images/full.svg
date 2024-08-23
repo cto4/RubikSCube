@@ -1,0 +1,6 @@
+<svg height="40" width="40" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <polyline points="50,210 50,50 210,50" fill="none" stroke="#09f" stroke-width="40" />
+  <polyline points="450,210 450,50 290,50" fill="none" stroke="#09f" stroke-width="40" />
+  <polyline points="50,290 50,450 210,450" fill="none" stroke="#09f" stroke-width="40" />
+  <polyline points="450,290 450,450 290,450" fill="none" stroke="#09f" stroke-width="40" />
+</svg>
